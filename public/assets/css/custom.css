@@ -1,0 +1,72 @@
+.vertical-center {
+    display: block;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.form-bg-body {
+    background: #e0e0e0 !important;
+}
+
+.form-bg {
+    padding: 20px;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: inset 5px 5px 4px #636363,
+                inset -5px -5px 4px #ffffff;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url("../img/form-bg.avif") no-repeat center !important; */
+    /* background-size: cover !important; */
+}
+
+input,
+textarea,
+select {
+    border: 1px solid rgb(159, 187, 227) !important;
+    box-shadow: none !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+fieldset {
+    all: revert;
+    border: 3px solid rgb(83, 222, 222);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    padding: 15px 8px;
+}
+
+legend {
+    all: revert;
+    border: 3px solid rgb(83, 222, 222);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    padding: 5px 8px;
+    background-color: rgb(250, 217, 215);
+    color: red;
+}
+
+td a button{
+    margin: 3px 0px !important;
+}
+table{
+    width: 100% !important;
+}
+
+td,th{
+    text-wrap: nowrap !important;
+    text-align: start !important;
+}
+
+
+.document-img{
+    height: 300px !important;
+    width: 100%;
+    object-fit: contain;
+}
