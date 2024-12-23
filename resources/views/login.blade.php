@@ -38,11 +38,9 @@
                                     <label for="password" class="form-label fw-bold">Password <sup class="text-danger">*</sup></label>
                                     <div class="input-group">
                                         <input type="password" name="password" class="form-control" id="password" minlength="6" placeholder="Enter Your Password" required>
-                                        <div class="input-group-append">
                                             <span class="input-group-text" id="toggle-password">
                                                 <i class="bi bi-eye-fill"></i>
                                             </span>
-                                        </div>
                                         <div class="invalid-feedback">Please enter your Password.</div>
                                     </div>
                                 </div>
